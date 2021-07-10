@@ -1,3 +1,7 @@
+
+const box= document.querySelector('.container1convideo');
+const card= document.querySelector('.container1convideo');
+
 var n = 0;
 var asd = document.getElementById("number1");
 window.setInterval(function(){
@@ -31,6 +35,58 @@ window.setInterval(function(){
 }
 },180);
 
+
+
+window.onscroll = function() {scrollFunction()};
+
+
+function scrollFunction() {
+
+
+ if (document.documentElement.scrollTop >700 ) {
+    document.getElementById("sonrisa").style.transform="scale(1.2)";
+
+  }
+  if(document.documentElement.scrollTop >1000 ){
+    document.getElementById("sonrisa").style.transform="scale(1.0)"
+  }
+
+  
+}
+
+document.getElementById("con3").addEventListener("mouseover", function(o){
+  
+    document.getElementById("boton11").style.transform="scale(1.2) rotateY(180deg)";
+
+});
+
+document.getElementById("con3").addEventListener("mouseout", function(o){
+  
+    document.getElementById("boton11").style.transform="scale(1.0) ";
+
+});
+document.getElementById("con32").addEventListener("mouseover", function(o){
+  
+    document.getElementById("boton12").style.transform="scale(1.2) rotateY(180deg)";
+
+});
+
+document.getElementById("con32").addEventListener("mouseout", function(o){
+  
+    document.getElementById("boton12").style.transform="scale(1.0) ";
+
+});
+document.getElementById("con33").addEventListener("mouseover", function(o){
+  
+    document.getElementById("boton13").style.transform="scale(1.2) rotateY(180deg)";
+
+});
+
+document.getElementById("con33").addEventListener("mouseout", function(o){
+  
+    document.getElementById("boton13").style.transform="scale(1.0) ";
+
+});
 document.getElementById("ima1").addEventListener("mouseover", function(e){
   document.getElementById("icon1").style.display = "block";
   document.getElementById("icon1").style.transform="translateY(-100px)";

@@ -76,6 +76,12 @@ h1{
 	line-height: 55px;
 	padding-bottom: 25px;
 	width: 100%;
+	color: #2c2c2c;
+    
+    letter-spacing: .08em;
+    text-shadow: 
+      2px 4px 0px #d5d5d5, 
+      4px 7px 0px rgba(0, 0, 0, 0.1);
 }
 .container1convideo{
 	width: 100%;
@@ -151,7 +157,7 @@ transition: 0.5s;
 	}
 .container3{
 
-	background-color: #F8F9FF;
+background-image: url(img/images.jpg);
 }
 .container3con{
 	padding-top: 80px;
@@ -160,7 +166,9 @@ transition: 0.5s;
 	justify-content: space-around;
 	width: 90%;
 	margin: auto;
+	transition: 1s;
 	padding: auto;
+	transform: scale(0.5);
 }
 .container3conp{
 	padding-top:60px ;
@@ -201,15 +209,17 @@ h4{
 .fa-smile-o{
 	background: rgb(10 191 83 / 10%);
 	color:#0abf53 ;
+	transition: 1s;
 }
 .fa-graduation-cap{
 	color: #FFC947;
 	background-color: #FFF3D7;
-
+	transition: 1s;
 }
 .fa-users{
 	background-color: #FFE5EC;
 	color: #FF4F81;
+	transition: 1s;
 }
 .container4con{
 	margin: auto;
@@ -343,5 +353,131 @@ h2{
 	color: #ff7065;
 	font-size: 15px;
 	width: 20px;
+
+}
+@media (max-width: 600px){
+
+.container1con{
+	margin-top: -60px;
+padding-top: -50px;
+	flex-direction: column;
+	width: 100%;
+
+	padding: auto;
+}
+.container1conp , .container5conp{
+	width: 100%;
+}
+h1{
+	font-size: 30px;
+	line-height: 30px;
+	text-align: left;
+
+}
+.container1convideo , .container5conimg{
+	width: 100%;
+	height: 100%;
+
+
+	
+}
+#boton1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.container2con{
+	width: 100%;
+	flex-direction: column;
+	margin-top: -20px;
+	flex-wrap: wrap;
+}
+.container2conp{
+	align-items: center;
+	border: none;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+	padding-bottom: 40px;
+
+}
+.container2conp h1{
+	font-size: 40px;
+	text-align: center;
+}
+.container3{
+}
+#sonrisa{
+	flex-direction: column;
+	
+
+
+}
+.header{
+	background-size: contain;
+	background-repeat: none;
+	
+}
+.headercon{
+	padding-left: 20px;
+	padding-top: 100px;
+	padding-bottom: 0px;
+}
+.container3conp{
+	border-radius: 10px;
+	width: 100%;
+}
+.container4contitulo{
+	width: 100%;
+	padding-top: 50px;
+}
+.container4contitulo h1{
+	font-size: 30px;
+	text-align: left;
+}
+.container4conimg{
+
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.container4conimagenes{
+	width: 100%;
+	border-radius: 15px;
+	margin: 0px;
+	margin-left:-15px;
+	margin-bottom: 40px;
+}
+.iconos{
+display: flex;
+}
+.container5con{
+	padding-top: 0px;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
