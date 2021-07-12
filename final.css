@@ -6,6 +6,7 @@
 	background-image: url(img/bg4.jpg);
 	background-size: cover;
 	background-position: top;
+
 }
 .headercon{
 	padding-left: 70px;
@@ -156,8 +157,10 @@ transition: 0.5s;
 	border-right-width: 1px;
 	}
 .container3{
+background-image: url(img/az.jpg);
+background-size: cover;
+background-position: center;
 
-background-image: url(img/images.jpg);
 }
 .container3con{
 	padding-top: 80px;
@@ -235,12 +238,13 @@ h4{
 .container4contitulo{
 	padding-top: 80px;
 	text-align: center;
-	width: 65%;
+	width: 100%;
 }
 #span{
 	color:#FF7065 ;
 }
 .container4conimg{
+	width: 100%;
 	z-index: 5;
 	margin: auto;
 	padding: auto;
@@ -251,14 +255,13 @@ h4{
 .iconos{
 	
 	z-index: 1;
-	position: absolute;
+	position: relative;
 	text-align: center;
-
-	width: 18%;
+	width: 100%;
 	margin: auto;
+	padding: auto;
+	transform: translateY(-80px);
 	transition: 0.5s;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	background-color:rgba(8, 8, 8, 0.29);
 }
 .letra p{
@@ -269,11 +272,10 @@ h4{
 	text-align: center;
 }
 .letra{
+	position: relative;
 	text-align: center;
 	background-color: #FFFFFF;
 	width: 100%;
-	margin: -5px;
-	padding-top: 5px;
 	z-index: 5;
 }
 .fa-facebook{
@@ -303,10 +305,9 @@ h4{
 .container4conimagenes{
 	transition: 1s;
     box-shadow: 0 20px 62px rgb(4 ,20, 69, 0.1);
-	margin: 10px;
+	margin: 30px;
 	background-color:#FFFFFF;
-	width: 20%;
-	padding: 15px;
+	width: 24%;
 	margin: auto;
 	padding: auto;
 	display: flex;
@@ -316,10 +317,21 @@ h4{
 	margin-top: 40px;
 
 }
+.pru{
+	padding-top: 0px;
+	width: 90%;
+}
+.container4conimagen{
+	width: 30%;
+	padding: auto;
+	margin: auto;
+}
 .container4imagen img{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 	width: 100%;
+	padding: auto;
+	margin: auto;
 }
 h2{
 	padding-top: 20px;
@@ -356,6 +368,9 @@ h2{
 
 }
 @media (max-width: 600px){
+	.header{
+		background-repeat: no-repeat;
+	}
 
 .container1con{
 	margin-top: -60px;
@@ -446,11 +461,19 @@ h1{
 	width: 100%;
 	border-radius: 15px;
 	margin: 0px;
-	margin-left:-15px;
+	margin-left: 0px;
 	margin-bottom: 40px;
+}
+.container4conimagen{
+	flex-direction: row;
 }
 .iconos{
 display: flex;
+justify-content: center;
+width: 100%;
+
+
+
 }
 .container5con{
 	padding-top: 0px;

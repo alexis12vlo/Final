@@ -87,91 +87,91 @@ document.getElementById("con33").addEventListener("mouseout", function(o){
     document.getElementById("boton13").style.transform="scale(1.0) ";
 
 });
-document.getElementById("ima1").addEventListener("mouseover", function(e){
+document.getElementById("ima1").addEventListener("mouseover", function(){
   document.getElementById("icon1").style.display = "block";
-  document.getElementById("icon1").style.transform="translateY(-100px)";
+  document.getElementById("icon1").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima1").addEventListener("mouseout", function(){
 
-   document.getElementById("icon1").style.transform="translateY(0px)";
+   document.getElementById("icon1").style.transform="translateY(-80px)";
    document.getElementById("icon1").style.display = "";
 });
 document.getElementById("ima2").addEventListener("mouseover", function(){
   document.getElementById("icon2").style.display = "block";
-  document.getElementById("icon2").style.transform="translateY(-100px)";
+  document.getElementById("icon2").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima2").addEventListener("mouseout", function(){
 
-   document.getElementById("icon2").style.transform="translateY(0px)";
+   document.getElementById("icon2").style.transform="translateY(-80px)";
    document.getElementById("icon2").style.display = "";
 });
 document.getElementById("ima3").addEventListener("mouseover", function(){
   document.getElementById("icon3").style.display = "block";
-  document.getElementById("icon3").style.transform="translateY(-100px)";
+  document.getElementById("icon3").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima3").addEventListener("mouseout", function(){
 
-   document.getElementById("icon3").style.transform="translateY(0px)";
+   document.getElementById("icon3").style.transform="translateY(-80px)";
    document.getElementById("icon3").style.display = "";
 });
 document.getElementById("ima4").addEventListener("mouseover", function(){
   document.getElementById("icon4").style.display = "block";
-  document.getElementById("icon4").style.transform="translateY(-100px)";
+  document.getElementById("icon4").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima4").addEventListener("mouseout", function(){
 
-   document.getElementById("icon4").style.transform="translateY(0px)";
+   document.getElementById("icon4").style.transform="translateY(-80px)";
    document.getElementById("icon4").style.display = "";
 });
 document.getElementById("ima5").addEventListener("mouseover", function(){
   document.getElementById("icon5").style.display = "block";
-  document.getElementById("icon5").style.transform="translateY(-100px)";
+  document.getElementById("icon5").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima5").addEventListener("mouseout", function(){
 
-   document.getElementById("icon5").style.transform="translateY(0px)";
+   document.getElementById("icon5").style.transform="translateY(-80px)";
    document.getElementById("icon5").style.display = "";
 });
 document.getElementById("ima6").addEventListener("mouseover", function(){
   document.getElementById("icon6").style.display = "block";
-  document.getElementById("icon6").style.transform="translateY(-100px)";
+  document.getElementById("icon6").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima6").addEventListener("mouseout", function(){
 
-   document.getElementById("icon6").style.transform="translateY(0px)";
+   document.getElementById("icon6").style.transform="translateY(-80px)";
    document.getElementById("icon6").style.display = "";
 });
 document.getElementById("ima7").addEventListener("mouseover", function(){
   document.getElementById("icon7").style.display = "block";
-  document.getElementById("icon7").style.transform="translateY(-100px)";
+  document.getElementById("icon7").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima7").addEventListener("mouseout", function(){
 
-   document.getElementById("icon7").style.transform="translateY(0px)";
+   document.getElementById("icon7").style.transform="translateY(-80px)";
    document.getElementById("icon7").style.display = "";
 });
 document.getElementById("ima8").addEventListener("mouseover", function(){
   document.getElementById("icon8").style.display = "block";
-  document.getElementById("icon8").style.transform="translateY(-100px)";
+  document.getElementById("icon8").style.transform="translateY(-159px)";
 
 });
 
 document.getElementById("ima8").addEventListener("mouseout", function(){
 
-   document.getElementById("icon8").style.transform="translateY(0px)";
+   document.getElementById("icon8").style.transform="translateY(-80px)";
    document.getElementById("icon8").style.display = "";
 });
