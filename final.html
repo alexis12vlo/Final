@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/f81be34085.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="final.css">
 	<script defer="" type="text/javascript" src="final.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -11,6 +12,36 @@
 </head>
 <body>
 	<div class="header">
+		<nav class="navbar" >
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+          <h5 id="h5" >Studious</h5>
+        </div>
+        <div class="links-navbar">
+          <ul id="ul" class="links">
+            <li><a id="a1" href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact us</a></li>
+            <div class="search">
+              <form action="">
+                <input type="text" name="search" id="search" placeholder="Enter Keyword" />
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </ul>
+
+          <div class="complements-nav">
+            <div class="mode">
+              <i id="icondark" class="far fa-moon"></i>
+            </div>
+            <div class="hamburguer">
+              <i class="hamburguer fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
 		<div class="headercon">
 			<h3>About Us</h3>
 			<p class="p1"><a id="as" href="">Home</a><a id="flecha" href="" class="fas fa-chevron-right"></a>About Us</p>
@@ -33,7 +64,7 @@
 	<div class="container2">
 		<div class="container2con">
 			<div class="container2conp">
-				<h1 id="number1">12</h1>
+				<h1 id="number1"></h1>
 				<p>LEARNERS & COUNTING</p>
 			</div>
 			<div class="container2conp">
@@ -54,27 +85,26 @@
 		<div  id="sonrisa" class="container3con">
 			<div id="con3" class="container3conp">
 				<button id="boton11" class="fa fa-smile-o"></button>
-				<h4>Seminarios grupales</h4>
+				<h5>Seminarios grupales</h5>
 				<p>Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
 			</div>
 			<div id="con32" class="container3conp">
 				<button  id="boton12" class="fa fa-graduation-cap icon-style-2"></button>
-				<h4>Cursos de tendencia</h4>
+				<h5>Cursos de tendencia</h5>
 				<p>Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
 			</div>
 			<div id="con33" class="container3conp">
 				<button id="boton13"  class="fa fa-users icon-style-3"></button>
-				<h4>Profesores expertos</h4>
+				<h5>Profesores expertos</h5>
 				<p>Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
 			</div>
 		</div>
 	</div>
 	<div class="container4">
 		<div class="container4con">
-			<div class="container4contitulo">
-				<h1>¿Quién hace que suceda la magia?<span id="span" >Conozca sobre ellos</span></h1>
+			<div id="imag4" class="container4conimg">
+				
 			</div>
-			<div class="container4conimg">
 				<div  id="ima1" class="container4conimagenes">
 					<div class="pru">
 					<div class="container4imagen">
@@ -193,12 +223,12 @@
 				</div>
 				<div class="container4conimagenes">
 					<div class="pru">
-					<div id="ima7" class="container4imagen">
-						<img src="img/team7.jpg">
+								<div id="ima7" class="container4imagen">
+								<img src="img/team7.jpg">
 						
-					</div>
+								</div>
 					<div class="letra">
-					<h2>Teri Dac</h2>
+								<h2>Teri Dac</h2>
                     <p>Enseña Habilidades</p>
                     </div>
                     <div id="icon7" class="iconos">
@@ -216,23 +246,19 @@
 						<img src="img/team8.jpg">
 						
 					</div>
-					<div class="letra">
-					<h2>Anton Bne</h2>
+						<div class="letra">
+										<h2>Anton Bne</h2>
                     <p>Diseñador web</p>
-                    </div>
-                    <div id="icon8" class="iconos">
-                    	<div class="iconos2">
-							<button class="fa fa-facebook"></button>
-							<button class="fa fa-twitter"></button>
-							<button class="fa fa-google"></button>
-							</div>
+           </div>
+           <div id="icon8" class="iconos">
+              	<div class="iconos2">
+										<button class="fa fa-facebook"></button>
+										<button class="fa fa-twitter"></button>
+										<button class="fa fa-google"></button>
+								</div>
 					</div>
 				</div>
-				</div>
-
 			</div>
-		</div>
-</div>
 	
 	<div class="container5">
 		<div class="container5con">
@@ -259,5 +285,62 @@
 
 		</div>
 	</div>
+      <section class="pre-footer">
+        <div class="subscribe">
+          <div class="container-subscribe">
+
+            <div class="text-subscribe">
+              <h4>Subscribe Us to join our Community</h4>
+              <p>Newsletter</p>
+            </div>
+            <div class="input">
+
+              <input type="email" placeholder="Enter your email">
+              <button type="submit" >Send</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-pre-footer">
+          <div class="quick-links">
+            <h4>QUICK LINKS</h4> 
+            <a href=""><i class="fas fa-chevron-right"></i>Home</a>
+            <a href=""> <i class="fas fa-chevron-right"></i>About</a>
+            <a href=""> <i class="fas fa-chevron-right"></i>Courses</a>
+            <a href=""> <i class="fas fa-chevron-right"></i>Contact</a>
+          </div>
+          <div class="help">
+            <h4>HELP & SUPPORT </h4>
+            <ul>
+              <li><i class="fas fa-chevron-right"></i>Live Chart</li>
+              <li><i class="fas fa-chevron-right"></i>Faq</li>
+              <li><i class="fas fa-chevron-right"></i>Support</li>
+              <li><i class="fas fa-chevron-right"></i>Terms of Services</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h4>CONTACT </h4>
+            <ul>
+              <li><i class="far fa-envelope"></i>info@example.com</li>
+              <li><i class="fas fa-phone-alt"></i>+44-000-888-999</li>
+              <li><i class="fas fa-map-marker-alt"></i>London,235 Terry,10001</li>   
+            </ul>
+          </div>
+          <div class="about">
+            <h4>ABOUT </h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+            <div class="icons-about">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i id="tw" class="fab fa-twitter"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+      <p>&copy;2021 Studios. All rights reserved. Developed by Team </p>
+    </footer>
+  </div>
 </body>
 </html>

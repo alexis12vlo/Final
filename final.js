@@ -1,4 +1,90 @@
 
+const iconDark = document.querySelector('.mode');
+const change = document.querySelector('.far');
+const nav = document.querySelector('.navbar');
+const a1 = document.querySelector('#ul , a');
+
+
+
+
+const es = document.querySelector('#h5');
+const con1 = document.querySelector('.container1');
+const con2 = document.querySelector('.container2');
+const h1 = document.querySelector('h1');
+let h5 = document.querySelector('div.container3 > div.container3con > #con3 > h5');
+let h52 = document.querySelector('div.container3 > div.container3con > #con32 > h5');
+let h53 = document.querySelector('div.container3 > div.container3con > #con33 > h5');
+
+
+const con3=document.querySelector('#con3');
+const con32=document.querySelector('#con32');
+const con33=document.querySelector('#con33');  
+const con4 = document.querySelector('.container4');
+const imagenes4 = document.querySelector('#imag4 , .container4conimagenes');
+
+const con5 = document.querySelector('.container5'); 
+
+iconDark.addEventListener('click', () =>{
+  document.body.classList.toggle('dark');
+   
+ 
+  if(document.body.classList.contains('dark')){
+ 
+  change.classList.remove('fa-moon')
+  change.classList.add('fa-sun')
+  nav.style.backgroundColor = '#161C2D';
+    a1.style.color = 'white';
+  as.style.color = 'white';
+   es.style.color = 'white';
+      con1.style.backgroundColor = '#161C2D';
+    con2.style.backgroundColor = '#161C2D';
+      h1.style.color = 'white';
+        h1.style.textShadow = 'none';
+        h5.style.color = 'white';
+        h52.style.color = 'white';
+        h53.style.color = 'white';
+ 
+    con3.style.backgroundColor = '#161C2D';
+   con32.style.backgroundColor = '#161C2D';
+   con33.style.backgroundColor = '#161C2D';
+  
+   con4.style.backgroundColor = '#161C2D';
+    imagenes4.backgroundColor = '#161D2E';
+   
+   con5.style.backgroundColor = '#161C2D';
+
+
+   
+   
+   
+  
+  
+
+
+  }else{
+   
+    change.classList.remove('fa-sun')
+    change.classList.add('fa-moon')
+    nav.style.backgroundColor = 'white';
+     es.style.color = '#0d369e';
+     con1.style.backgroundColor = 'white';
+     con2.style.backgroundColor = 'white';
+     h1.style.color= '#060606';
+      h1.style.textShadow = '2px 4px 0px #d5d5d5';
+    con3.style.backgroundColor ='white';
+   con32.style.backgroundColor = 'white';
+   con33.style.backgroundColor = 'white';
+     con4.style.backgroundColor = 'white';
+   con5.style.backgroundColor = 'white';
+ 
+  }
+
+})
+
+
+
+
+
 const box= document.querySelector('.container1convideo');
 const card= document.querySelector('.container1convideo');
 
