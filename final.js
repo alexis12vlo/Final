@@ -49,7 +49,7 @@ iconDark.addEventListener('click', () =>{
    con33.style.backgroundColor = '#161C2D';
   
    con4.style.backgroundColor = '#161C2D';
-    imagenes4.backgroundColor = '#161D2E';
+    
    
    con5.style.backgroundColor = '#161C2D';
 
@@ -123,18 +123,22 @@ window.setInterval(function(){
 
 
 
+
+
+
 window.onscroll = function() {scrollFunction()};
-
-
 function scrollFunction() {
 
 
  if (document.documentElement.scrollTop >700 ) {
+
     document.getElementById("sonrisa").style.transform="scale(1.2)";
+
 
   }
   if(document.documentElement.scrollTop >1000 ){
     document.getElementById("sonrisa").style.transform="scale(1.0)"
+    
   }
 
   
