@@ -103,8 +103,8 @@ body.dark .links li a{
     color: #ff6e65;
 }
 
-.links li:first-child a{
-    color: #ff6e65;
+.links li:nth-child(2) a{
+    color: #ff6e65;;
 }
 
 .search{
