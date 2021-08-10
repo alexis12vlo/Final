@@ -177,6 +177,10 @@ document.getElementById("con33").addEventListener("mouseout", function(o){
     document.getElementById("boton13").style.transform="scale(1.0) ";
 
 });
+
+
+
+
 document.getElementById("ima1").addEventListener("mouseover", function(){
   document.getElementById("icon1").style.display = "block";
   document.getElementById("icon1").style.transform="translateY(-159px)";

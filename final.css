@@ -342,6 +342,7 @@ p{
 	background-image: url(img/about.jpg);
 	border-radius: 10px;
 	background-size: cover;
+	background-position: center;
 	justify-content: center;
 	align-items: center;
 }
