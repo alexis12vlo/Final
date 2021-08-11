@@ -473,6 +473,7 @@ h5{
 	flex-direction: column;
 	justify-content: center;
 	z-index: 2;
+	padding-bottom: 50px;
 
 }
 .container4contitulo{
@@ -560,6 +561,7 @@ h5{
 	text-align: center;
 	margin-top: 40px;
 	position: relative;
+	border-radius: 10px;
 	z-index:100000;
 
 }
